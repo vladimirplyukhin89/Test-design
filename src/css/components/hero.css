@@ -29,10 +29,10 @@
   letter-spacing: 0.05em;
   text-align: center;
 
-  color: var(--btn-text);
+  color: rgba(255, 255, 255, 1);
   padding: 16px 30px;
   border-radius: 6px;
-  background-color: var(--block1-color);
+  background-color: rgba(1, 179, 176, 1);
 
   position: absolute;
   bottom: 50px;
@@ -47,7 +47,7 @@
 .hero__btn::after {
   content: "";
   display: block;
-  background-color: var(--btn-text);
+  background-color: rgba(255, 255, 255, 1);
   width: 100%;
   height: 2px;
   transform: translateX(-10%) translateY(20px);
@@ -59,15 +59,15 @@
 }
 
 .hero__btn:active {
-  color: var(--block1-color);
-  background-color: var(--btn-text);
+  color: rgba(1, 179, 176, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .hero__block1 {
   width: 60px;
   height: 60px;
 
-  background-color: var(--block1-color);
+  background-color: rgba(1, 179, 176, 1);
   border-radius: 10px;
   transform: rotate(45deg);
 
@@ -81,7 +81,7 @@
   width: 25px;
   height: 25px;
 
-  background-color: var(--block1-color);
+  background-color: rgba(1, 179, 176, 1);
   border-radius: 10px;
   transform: rotate(45deg);
 
@@ -94,7 +94,7 @@
   width: 65px;
   height: 65px;
 
-  border: 5px solid var(--block1-color);
+  border: 5px solid rgba(1, 179, 176, 1);
   border-radius: 10px;
   transform: rotate(45deg);
 
@@ -109,7 +109,7 @@
   width: 50px;
   height: 50px;
 
-  background-color: var(--block2-color);
+  background-color: rgba(39, 57, 74, 1);
   border-radius: 10px;
   transform: rotate(45deg);
 
@@ -131,7 +131,7 @@
   width: 35px;
   height: 35px;
 
-  background-color: var(--block2-color);
+  background-color: rgba(39, 57, 74, 1);
   border-radius: 10px;
   transform: rotate(45deg);
 
@@ -145,7 +145,7 @@
   width: 50px;
   height: 50px;
 
-  background-color: var(--block2-color);
+  background-color: rgba(39, 57, 74, 1);
   border-radius: 10px;
 
   transform: rotate(45deg);
@@ -352,7 +352,7 @@
     height: 100px;
 
     background-color: inherit;
-    border: 5px solid var(--block1-color);
+    border: 5px solid rgba(1, 179, 176, 1);
     border-radius: 10px;
     transform: rotate(45deg);
 
@@ -373,7 +373,7 @@
     width: 60px;
     height: 60px;
 
-    border: 8px solid var(--block2-color);
+    border: 8px solid rgba(39, 57, 74, 1);
     background-color: inherit;
 
     bottom: -10%;
