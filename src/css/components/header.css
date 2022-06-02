@@ -108,7 +108,7 @@
 @media (min-width: 1000px) {
   .header {
     display: inline-block;
-    width: 600px;
+    min-width: 650px;
     margin: 0;
   }
 
